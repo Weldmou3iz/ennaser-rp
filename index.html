@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Portail communautaire Ennaser RP — serveur roleplay tunisien sur Roblox."
+  />
+
+  <title>Ennaser RP | Roleplay Tunisien</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Accueil Ennaser RP">
+      <div class="brand-icon">ER</div>
+
+      <div>
+        <strong>Ennaser RP</strong>
+        <span>Roleplay Tunisien</span>
+      </div>
+    </a>
+
+    <button
+      class="menu-button"
+      id="menuButton"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">À propos</a>
+      <a href="#departments">Départements</a>
+      <a href="#recruitment">Recrutement</a>
+      <a href="#staff">Staff</a>
+      <a href="#rules">Règlement</a>
+      <a href="#faq">FAQ</a>
+
+      <!-- Replace with the real invite -->
+      <a
+        class="button button-small button-primary"
+        href="https://discord.gg/gfGHYpQTG"
+        target="_blank"
+        rel="noopener"
+      >
+        Rejoindre Discord
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="live-dot"></span>
+            Communauté Roblox tunisienne
+          </div>
+
+          <h1>
+            Ta ville.<br />
+            <span>Ton histoire.</span>
+          </h1>
+
+          <p>
+            Rejoins Ennaser RP et construis ton parcours dans une expérience
+            roleplay tunisienne centrée sur les services publics, les citoyens,
+            les entreprises et les organisations criminelles fictives.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://discord.gg/gfGHYpQTG"
+              target="_blank"
+              rel="noopener"
+            >
+              Rejoindre la communauté
+            </a>
+
+            <a class="button button-secondary" href="#recruitment">
+              Voir les recrutements
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong data-counter="1000">0</strong>
+              <span>Membres Discord</span>
+            </div>
+
+            <div>
+              <strong data-counter="5">0</strong>
+              <span>Départements</span>
+            </div>
+
+            <div>
+              <strong>24/7</strong>
+              <span>Communauté active</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="server-panel reveal">
+          <div class="panel-heading">
+            <div>
+              <span class="section-label">État du serveur</span>
+              <h2>Ennaser City</h2>
+            </div>
+
+            <span class="status-badge">
+              <span class="live-dot"></span>
+              En ligne
+            </span>
+          </div>
+
+          <div class="server-image">
+            <div class="server-image-placeholder">
+              <span>ENNASER</span>
+              <small>ROLEPLAY</small>
+              <img src="logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="server-details">
+            <div>
+              <span>Session</span>
+              <strong>Patrouille générale</strong>
+            </div>
+
+            <div>
+              <span>Recrutements</span>
+              <strong class="text-green">Ouverts</strong>
+            </div>
+
+            <div>
+              <span>Prochain événement</span>
+              <strong>Samedi • 20:00</strong>
+            </div>
+          </div>
+
+          <a
+            class="button button-primary button-full"
+            href="https://www.roblox.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Jouer sur Roblox
+          </a>
+        </aside>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Faire défiler">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <span class="section-label">Bienvenue à Ennaser</span>
+        <h2>Plus qu’un jeu, une communauté</h2>
+        <p>
+          Une expérience immersive inspirée de la Tunisie, conçue pour créer
+          des scènes sérieuses, des histoires mémorables et une communauté
+          accueillante.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="card-icon">🎭</div>
+          <h3>Roleplay structuré</h3>
+          <p>
+            Des règles claires, des formations et une modération active pour
+            garder des scènes réalistes et agréables.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="card-icon">🇹🇳</div>
+          <h3>Identité tunisienne</h3>
+          <p>
+            Des unités, véhicules, métiers et environnements inspirés de la
+            culture et des services tunisiens.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="card-icon">🎙️</div>
+          <h3>Interviews vocales</h3>
+          <p>
+            Les candidats passent un entretien vocal avant de rejoindre les
+            départements importants.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="card-icon">📅</div>
+          <h3>Événements réguliers</h3>
+          <p>
+            Patrouilles, opérations, contrôles, scénarios communautaires et
+            événements spéciaux.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Departments -->
+    <section class="section section-dark" id="departments">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Choisis ton parcours</span>
+          <h2>Départements et factions</h2>
+          <p>
+            Chaque équipe possède sa hiérarchie, ses formations et ses propres
+            responsabilités.
+          </p>
+        </div>
+
+        <div class="department-grid">
+          <article class="department-card police reveal">
+            <div class="department-top">
+              <span class="department-icon">🚓</span>
+              <span class="recruitment open">Ouvert</span>
+            </div>
+
+            <h3>Police Nationale</h3>
+            <p>
+              Patrouilles urbaines, contrôles routiers, enquêtes et protection
+              des citoyens.
+            </p>
+
+            <ul>
+              <li>Formation obligatoire</li>
+              <li>Entretien vocal</li>
+              <li>Grades et promotions</li>
+            </ul>
+
+            <a href="#recruitment">Voir les conditions →</a>
+          </article>
+
+          <article class="department-card guard reveal">
+            <div class="department-top">
+              <span class="department-icon">🛡️</span>
+              <span class="recruitment open">Ouvert</span>
+            </div>
+
+            <h3>Haras Watani</h3>
+            <p>
+              Garde nationale chargée des zones extérieures, opérations
+              sensibles et renforts de sécurité.
+            </p>
+
+            <ul>
+              <li>Discipline élevée</li>
+              <li>Opérations spécialisées</li>
+              <li>Sélection vocale</li>
+            </ul>
+
+            <a href="#recruitment">Voir les conditions →</a>
+          </article>
+
+          <article class="department-card medical reveal">
+            <div class="department-top">
+              <span class="department-icon">🚑</span>
+              <span class="recruitment open">Ouvert</span>
+            </div>
+
+            <h3>Protection Civile</h3>
+            <p>
+              Intervention médicale, secours routier et assistance pendant les
+              situations d’urgence.
+            </p>
+
+            <ul>
+              <li>Premiers secours RP</li>
+              <li>Interventions rapides</li>
+              <li>Travail d’équipe</li>
+            </ul>
+
+            <a href="#recruitment">Voir les conditions →</a>
+          </article>
+
+          <article class="department-card civilian reveal">
+            <div class="department-top">
+              <span class="department-icon">🏙️</span>
+              <span class="recruitment always">Libre</span>
+            </div>
+
+            <h3>Civils & Entreprises</h3>
+            <p>
+              Crée une entreprise, deviens chauffeur, journaliste, mécanicien
+              ou construis ton propre parcours.
+            </p>
+
+            <ul>
+              <li>Entreprises personnalisées</li>
+              <li>Métiers variés</li>
+              <li>Économie roleplay</li>
+            </ul>
+
+            <a href="#recruitment">Découvrir les métiers →</a>
+          </article>
+
+          <article class="department-card illegal reveal">
+            <div class="department-top">
+              <span class="department-icon">🕶️</span>
+              <span class="recruitment limited">Sur dossier</span>
+            </div>
+
+            <h3>Factions illégales</h3>
+            <p>
+              Organisations criminelles entièrement fictives, encadrées par le
+              règlement et limitées aux scénarios du jeu.
+            </p>
+
+            <ul>
+              <li>Dossier de faction</li>
+              <li>Scénarios encadrés</li>
+              <li>Fair-play obligatoire</li>
+            </ul>
+
+            <a href="#recruitment">Soumettre un dossier →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recruitment -->
+    <section class="section container" id="recruitment">
+      <div class="split-section">
+        <div class="reveal">
+          <span class="section-label">Rejoins une équipe</span>
+          <h2>Processus de recrutement</h2>
+
+          <p class="large-text">
+            Un parcours simple et transparent, depuis la candidature jusqu’à
+            ta première patrouille.
+          </p>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>01</span>
+              <div>
+                <h3>Rejoins Discord</h3>
+                <p>Vérifie ton compte et lis le règlement du serveur.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span>02</span>
+              <div>
+                <h3>Ouvre une candidature</h3>
+                <p>
+                  Choisis ton département et complète le formulaire demandé.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span>03</span>
+              <div>
+                <h3>Passe l’entretien vocal</h3>
+                <p>
+                  Un recruteur vérifie ta maturité et tes connaissances RP.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span>04</span>
+              <div>
+                <h3>Formation et intégration</h3>
+                <p>
+                  Termine ta formation puis commence officiellement ton rôle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="application-card reveal">
+          <span class="section-label">Candidatures</span>
+          <h3>Prêt à commencer ?</h3>
+
+          <p>Conditions générales recommandées :</p>
+
+          <ul class="check-list">
+            <li>Respecter les conditions d’âge du serveur</li>
+            <li>Posséder un microphone fonctionnel</li>
+            <li>Connaître les bases du roleplay</li>
+            <li>Respecter le staff et les autres joueurs</li>
+            <li>Ne pas avoir de sanction active</li>
+          </ul>
+
+          <div class="application-status">
+            <span>Statut actuel</span>
+            <strong>
+              <span class="live-dot"></span>
+              Interviews ouvertes
+            </strong>
+          </div>
+
+          <a
+            class="button button-primary button-full"
+            href="https://discord.gg/gfGHYpQTG"
+            target="_blank"
+            rel="noopener"
+          >
+            Commencer ma candidature
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Staff -->
+    <section class="section section-muted" id="staff">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">L’équipe</span>
+          <h2>Administration du serveur</h2>
+          <p>
+            Remplace ces exemples par les vrais pseudos et avatars après
+            autorisation du propriétaire.
+          </p>
+        </div>
+
+        <div class="staff-grid">
+          <article class="staff-card reveal">
+            <div class="staff-avatar">O</div>
+            <h3>Lo3y , Mosrana</h3>
+            <span class="role owner">Fondateur</span>
+            <p>Direction générale et développement du projet.</p>
+          </article>
+
+          <article class="staff-card reveal">
+            <div class="staff-avatar">C</div>
+            <h3>Chief</h3>
+            <span class="role management">Co-Fondateur</span>
+            <p>Gestion de la communauté et des départements.</p>
+          </article>
+
+          <article class="staff-card reveal">
+            <div class="staff-avatar">H</div>
+            <h3>Kira , Islem...etc</h3>
+            <span class="role hr">Responsable RH</span>
+            <p>Recrutements, entretiens et gestion des candidatures.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rules -->
+    <section class="section container" id="rules">
+      <div class="section-heading reveal">
+        <span class="section-label">À respecter</span>
+        <h2>Règles essentielles</h2>
+        <p>
+          Cette version est un résumé. Le règlement Discord complet reste la
+          référence officielle.
+        </p>
+      </div>
+
+      <div class="rules-grid">
+        <article class="rule-card reveal">
+          <span>01</span>
+          <div>
+            <h3>Respect obligatoire</h3>
+            <p>
+              Aucune insulte, discrimination, harcèlement ou comportement
+              toxique.
+            </p>
+          </div>
+        </article>
+
+        <article class="rule-card reveal">
+          <span>02</span>
+          <div>
+            <h3>Fear RP</h3>
+            <p>
+              Ton personnage doit réagir de manière crédible face au danger.
+            </p>
+          </div>
+        </article>
+
+        <article class="rule-card reveal">
+          <span>03</span>
+          <div>
+            <h3>Pas de Fail RP</h3>
+            <p>
+              Les actions irréalistes ou destinées à ruiner une scène sont
+              interdites.
+            </p>
+          </div>
+        </article>
+
+        <article class="rule-card reveal">
+          <span>04</span>
+          <div>
+            <h3>Pas de métagaming</h3>
+            <p>
+              N’utilise pas en jeu une information obtenue hors du roleplay.
+            </p>
+          </div>
+        </article>
+
+        <article class="rule-card reveal">
+          <span>05</span>
+          <div>
+            <h3>Pas de triche</h3>
+            <p>
+              Exploits, scripts, aimbots et logiciels donnant un avantage sont
+              interdits.
+            </p>
+          </div>
+        </article>
+
+        <article class="rule-card reveal">
+          <span>06</span>
+          <div>
+            <h3>Écouter le staff</h3>
+            <p>
+              Les décisions doivent être respectées; un recours peut être fait
+              calmement via ticket.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-dark" id="faq">
+      <div class="container faq-layout">
+        <div class="reveal">
+          <span class="section-label">Besoin d’aide ?</span>
+          <h2>Questions fréquentes</h2>
+          <p>
+            Les informations essentielles pour rejoindre et commencer à jouer.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item reveal">
+            <button class="faq-question">
+              Comment rejoindre Ennaser RP ?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Rejoins le Discord, termine la vérification et consulte le
+                canal contenant le lien Roblox.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item reveal">
+            <button class="faq-question">
+              Comment passer une interview ?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Ouvre un ticket de recrutement, remplis le formulaire puis
+                attends qu’un recruteur t’invite dans un salon vocal.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item reveal">
+            <button class="faq-question">
+              Peut-on créer une faction ?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Oui, si les candidatures sont ouvertes. La faction doit être
+                fictive, respecter Roblox et suivre le règlement du serveur.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item reveal">
+            <button class="faq-question">
+              Comment contacter le staff ?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Utilise le système de tickets Discord. Évite les messages
+                privés sauf en cas d’autorisation.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container cta-content reveal">
+        <div>
+          <span class="section-label">L’aventure commence ici</span>
+          <h2>Quelle sera ton histoire à Ennaser ?</h2>
+        </div>
+
+        <a
+          class="button button-light"
+          href="https://discord.gg/gfGHYpQTG"
+          target="_blank"
+          rel="noopener"
+        >
+          Rejoindre Ennaser RP
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <div class="brand-icon">ER</div>
+          <div>
+            <strong>Ennaser RP </strong>
+            <span>Roleplay Tunisien</span>
+          </div>
+        </a>
+
+        <p>
+          Prototype communautaire non officiel. Ennaser RP n’est ni affilié ni
+          approuvé par Roblox Corporation.
+        </p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <a href="#departments">Départements</a>
+        <a href="#recruitment">Recrutement</a>
+        <a href="#staff">Staff</a>
+        <a href="#rules">Règlement</a>
+      </div>
+
+      <div>
+        <h3>Communauté</h3>
+        <a href="https://discord.gg/gfGHYpQTG">Discord</a>
+        <a href="https://www.roblox.com/communities/1068534694/cartago-tunisa-rp">Roblox</a>
+        <a href="#">TikTok</a>
+        <a href="https://www.youtube.com/@Ripply_RBLX">YouTube</a>
+      </div>
+
+      <div>
+        <h3>Support</h3>
+        <a href="https://discord.gg/gfGHYpQTG">Ouvrir un ticket</a>
+        <a href="#faq">Questions fréquentes</a>
+        <a href="#">Signaler un problème</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Ennaser RP</span>
+      <span>Conçu avec passion pour la communauté 🇹🇳</span>
+    </div>
+  </footer>
+</body>
+</html>
